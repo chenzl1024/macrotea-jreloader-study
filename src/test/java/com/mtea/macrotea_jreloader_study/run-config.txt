@@ -1,0 +1,5 @@
+
+模板:
+-noverify -javaagent:jreloader.jar文件所在的文件路径 -Djreloader.dirs=类文件最终生成的位置所在路径
+
+-noverify -javaagent:E:\_Project\_macrotea\macrotea-jreloader-study\libs\jreloader.jar -Djreloader.dirs=E:\_Project\_macrotea\macrotea-jreloader-study\target\test-classes
