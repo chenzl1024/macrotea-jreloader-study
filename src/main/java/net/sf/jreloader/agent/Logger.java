@@ -39,6 +39,7 @@ public class Logger {
 
     static {
         try {
+        	//默认值的使用不错
             String fileName = System.getProperty("jreloader.logFile", "jreloader.log");
             out = new PrintWriter(fileName);
         } catch (FileNotFoundException e) {

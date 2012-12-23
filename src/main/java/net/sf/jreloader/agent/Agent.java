@@ -16,6 +16,9 @@ package net.sf.jreloader.agent;
 import java.lang.instrument.Instrumentation;
 
 /**
+ * 主要为:
+ * -noverify -javaagent:jreloader.jar文件所在的文件路径 -Djreloader.dirs=类文件最终生成的位置所在路径
+ * 提供服务
  * Class responsible for the intialization of the agent.
  *
  * @author Antonio S. R. Gomes
